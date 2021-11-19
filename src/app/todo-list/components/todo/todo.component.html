@@ -1,0 +1,18 @@
+<div class="header">
+  <h1 class="text-center">TODO LIST</h1>
+</div>
+<div class="input">
+  <input type="text" class="form-control" placeholder="Enter things you want to do..." [(ngModel)]="todoTitle" (keyup.enter)="addTodo()">
+</div>
+<br>
+<div class="content">
+  <ul>
+    <li *ngFor="let todo of todos" class="todo-list">
+      <input type="checkbox" class="check-bock hover-cursor" [(ngModel)]="todo.isCompleted">
+      <div class="todo-title">{{todo.title}}</div>
+      <button class="btn btn-danger hover-cursor " (click)="deleteTodo(todo.id)">
+        <i class="fa fa-trash">Delete</i>
+      </button>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "todo-list-app-f13b5": {
+      "hosting": {
+        "todo-list-app": [
+          "todo-list-app-f13b5"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "todo-list-app-f13b5"
+  }
+}

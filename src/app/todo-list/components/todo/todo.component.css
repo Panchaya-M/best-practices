@@ -1,0 +1,27 @@
+.hover-cursor {
+  cursor: pointer;
+}
+ul {
+  padding: 0;
+}
+
+.todo-list {
+  display: flex;
+  padding: 5px; 
+  margin-bottom: 5px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.check-bock {
+  align-self: center;
+  margin: 0;
+}
+
+.todo-title {
+  align-self: center;
+  margin: 4px 10px;
+  width: 100%;
+}
+
